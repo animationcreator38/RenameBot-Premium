@@ -14,8 +14,8 @@ CHANNEL = os.environ.get('CHANNEL',"")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL",""))
-token = os.environ.get('TOKEN','')
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001723921476"))
+token = os.environ.get('TOKEN','6624704482:AAFvMZbokVy8CSKa-mGnFLeI-TlyfXPeGVA')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
